@@ -74,6 +74,11 @@ main{
     font-size: 16px;
    
 }
+/* font awesome */
+.icon{
+    color: green;
+
+}
 /* My plan style */
 .plan-tittle{
     color: #151414;
@@ -93,15 +98,28 @@ main{
    
 }
 /* Gradient styles */
+.gradient-container{
+    background-image: linear-gradient(
+        
+        rgba(21, 43, 238, 0.064),
+        rgba(191, 212, 212, 0.93)
+      ),
+      url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .gradient{
-    background-image: url(./images/gradient1.png);
-    
-
+    margin-left: 63px;
+    padding-right: 618px;
+   
 }
 .gradient-tittle{
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 40px;
+    margin-bottom: 24px;
+    padding-top: 65px;
+
 }
 .btn-secondary{
     color: #005FAC;
@@ -111,4 +129,105 @@ main{
     padding: 20px 26px;
     border-radius: 5px;
     border: none;
+    margin-bottom: 52px;
+    
+}
+/* contact styles */
+
+
+.contact{
+    text-align: center;
+}
+.contact-tittle{
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 0;
+}
+.contact-descrption{
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 0;
+}
+.address-tittle{
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+   
+}
+.address{
+    background-color: aquamarine;
+    width: 700px;
+    height: 300px;
+    margin: auto;
+}
+.input-contact
+{
+    display: flex;
+    justify-content: center;
+
+
+}
+.input-conct{
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.btn-submit{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 25px;
+    
+}
+.contact-btn-div{
+ display: flex;
+ justify-content: center;
+}
+/* Footer styles */
+footer{
+    background: #151414;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 85px;
+     gap: 50px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.footer-info{
+    padding-left: 200px;
+    padding-top: 170px;
+    margin-bottom: 80px;
+}
+.footer-tittle{
+    font-weight: 700;
+    font-size: 45px;
+}
+.footer-subs{
+    padding-right: 200px;
+}
+.btn-third{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.input-subs{
+    background-color: #151414;
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding: 5px 10px;
 }
