@@ -1,0 +1,114 @@
+body{
+    margin: 0px ;
+    
+
+}
+
+/* Banner style */
+.header{
+    background-image: url(./images/banner/banner3.png);
+    
+    width: 1600px;
+    height: 808px;
+    text-align: right;
+    margin-bottom: 130px;
+   
+}
+.section-tittle{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+    margin-top: 0;
+    padding-top: 216px;
+    padding-right: 230px;
+    
+   
+    
+}
+.section-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 230px;
+    margin-bottom: 32px;
+    
+    
+}
+.btn-primary{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 26px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 230px;
+    margin-bottom: 166px;
+    
+}
+main{
+    width: 1072px;
+    margin: 0 auto;
+}
+/* failure styles */
+.failure-container{
+    display: flex;
+    
+    align-items: center;
+}
+.failure{
+    margin-left: 87px;
+   
+}
+ .failure-tittle{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+   
+    
+} 
+.failure-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+/* My plan style */
+.plan-tittle{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+}
+.skills{
+    margin-left: 86px;
+}
+.skill-tittle{
+    color: #151414;
+   
+}
+/* Gradient styles */
+.gradient{
+    background-image: url(./images/gradient1.png);
+    
+
+}
+.gradient-tittle{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+}
+.btn-secondary{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 26px;
+    border-radius: 5px;
+    border: none;
+}
